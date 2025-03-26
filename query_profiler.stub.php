@@ -5,4 +5,3 @@
  * @undocumentable
  */
 
-function test1(): void {}

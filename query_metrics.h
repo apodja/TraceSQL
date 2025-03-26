@@ -30,6 +30,6 @@ query_entry_t* get_query_entry(query_table_t *table, char *query);
 void upsert_query_entry(query_table_t *table, char *query, double exec_time);
 void free_query_table(query_table_t *table);
 void free_chain(query_entry_t *entry);
-void print_query_table(query_table_t *table);
+void print_formatted_table(query_table_t *table);
 
 #endif
